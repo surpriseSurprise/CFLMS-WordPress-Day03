@@ -1,0 +1,44 @@
+/*
+Theme Name: FIT
+Theme URI: #
+Author: ElkeM
+Author URI: http://elke.codefactory.live
+Description: Fitness Blog Theme
+Version: 1.0
+Tags: blog, fitness
+*/
+
+.container {
+    max-width: 100vw;
+}
+
+.everest {
+    width: 100vw;
+    /* height: 100vh; */
+    z-index: -1;
+    margin-top: -15rem;
+    padding: 0;
+}
+
+.title > .h1f, .h2f {
+    margin-top: 2vh;
+    color: white;
+}
+
+.h1f {
+    position: relative;
+    color: white;
+    margin-left: 3vw;
+}
+
+.h2f {
+    position: relative;
+    color: white;
+    margin-left: 3vw;
+}
+
+a:hover {
+    outline: 1px solid white;
+    outline-style: dotted;
+    background-color: lightgray;
+}
